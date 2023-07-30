@@ -2,7 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ const myFont = localFont({
 export const metadata: Metadata = {
   title: "YOOBIN",
   description: "Yoobin Han's portfolio",
+  icons:'./lotus.png'
 };
 
 export default function RootLayout({

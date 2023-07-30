@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import AboutItem from "./AboutItem";
+import Name from "../public/about/name.png"
+import Birthday from "../public/about/birthday.png"
+import Email from "../public/about/email.png"
+import Location from "../public/about/location.png"
+import Graduate from "../public/about/graduate.png"
+import Github from "../public/about/github.png"
 
 const About = () => {
   return (
@@ -10,23 +16,23 @@ const About = () => {
           About
         </p>
         <div className="grid grid-cols-3 py-4">
-          <AboutItem title="이름" content="한유빈" src="name" />
-          <AboutItem title="생년월일" content="1997.12.09" src="birthday" />
-          <AboutItem title="이메일" content="hyb120934@gmail.com" src="email" />
+          <AboutItem title="이름" content="한유빈" src={Name} />
+          <AboutItem title="생년월일" content="1997.12.09" src={Birthday} />
+          <AboutItem title="이메일" content="hyb120934@gmail.com" src={Email} />
           <AboutItem
             title="거주지"
             content="대구광역시 수성구"
-            src="location"
+            src={Location}
           />
           <AboutItem
             title="학력"
             content="경북대학교 전자공학부"
-            src="graduate"
+            src={Graduate}
           />
           <AboutItem
             title="GitHub"
             content="https://github.com/Mintfrog-1209"
-            src="github"
+            src={Github}
           />
         </div>
       </div>
