@@ -1,5 +1,13 @@
 import React from 'react'
 import SkillItem from './SkillItem'
+import Html from '../public/skills/html.png'
+import Css from '../public/skills/css.png'
+import JavaScript from '../public/skills/javascript.png'
+import ReactJs from '../public/skills/react.png'
+import NextJs from '../public/skills/nextjs.png'
+import Tailwind from '../public/skills/tailwind.png'
+import TypeScript from '../public/skills/typescript.png'
+import Unity from '../public/skills/unity.png'
 
 const Skills = () => {
   return (
@@ -9,14 +17,14 @@ const Skills = () => {
           Skills
         </p>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 py-4'>
-          <SkillItem src="html" name="HTML5"/>
-          <SkillItem src="css" name="CSS3"/>
-          <SkillItem src="javascript" name="JavaScript"/>
-          <SkillItem src="react" name="React"/>
-          <SkillItem src="nextjs" name="Next.js"/>
-          <SkillItem src="tailwind" name="Tailwind"/>
-          <SkillItem src="typescript" name="TypeScript"/>
-          <SkillItem src="unity" name="Unity"/>
+          <SkillItem src={Html} name="HTML5"/>
+          <SkillItem src={Css} name="CSS3"/>
+          <SkillItem src={JavaScript} name="JavaScript"/>
+          <SkillItem src={ReactJs} name="React"/>
+          <SkillItem src={NextJs} name="Next.js"/>
+          <SkillItem src={Tailwind} name="Tailwind"/>
+          <SkillItem src={TypeScript} name="TypeScript"/>
+          <SkillItem src={Unity} name="Unity"/>
         </div>
       </div>
     </div>
