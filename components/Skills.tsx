@@ -11,7 +11,7 @@ import Unity from '../public/skills/unity.png'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full p-[100px]'>
+    <div id='skills' className='w-full p-[100px] bg-[#B9F3FC]'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-4xl tracking-widest uppercase text-[#379237]'>
           Skills

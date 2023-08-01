@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hello = () => {
   return (
-    <div id='home' className='w-full h-screen text-center p-8'>
+    <div id='home' className='w-full h-screen text-center p-8 bg-[#B9F3FC]'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <h1 className='py-4 text-gray-700'>

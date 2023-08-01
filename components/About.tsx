@@ -10,12 +10,12 @@ import Github from "../public/about/github.png"
 
 const About = () => {
   return (
-    <div id="about" className="w-full p-[100px]">
+    <div id="about" className="w-full p-[100px] bg-[#B9F3FC]">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-4xl tracking-widest uppercase text-[#379237]">
           About
         </p>
-        <div className="grid grid-cols-3 py-4">
+        <div className="grid grid-cols-3 py-4 gap-8">
           <AboutItem title="이름" content="한유빈" src={Name} />
           <AboutItem title="생년월일" content="1997.12.09" src={Birthday} />
           <AboutItem title="이메일" content="hyb120934@gmail.com" src={Email} />

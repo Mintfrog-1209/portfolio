@@ -4,7 +4,7 @@ import Logo from '../public/lotus.png'
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-20 z-50 bg-[#B9F3FC]">
+    <div className="fixed w-full h-20 z-50 bg-white">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div>
           <Image src={Logo} width='40' height='40' alt='/'/>
