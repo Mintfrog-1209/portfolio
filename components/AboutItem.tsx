@@ -8,9 +8,9 @@ type AboutProps = {
 
 const AboutItem = (props:AboutProps) => {
   return (
-    <div className='p-6 rounded-xl shadow-xl shadow-gray-400 bg-[#50dc50]'>
+    <div className='py-6 pr-10 rounded-xl shadow-xl shadow-gray-400 bg-white'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='m-auto justify-start'>
                 <Image src={props.src} width='80' height='80' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
