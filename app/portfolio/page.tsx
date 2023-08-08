@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import SamalsImage from "../../public/projects/samals4.png";
+import Lotus from "../lotus.png"
 import Link from "next/link";
 
 const home = () => {
@@ -12,13 +12,15 @@ const home = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="contain"
-          src={SamalsImage}
+          src={Lotus}
           alt="/"
           priority={true}
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h1 className="py-2">SAMALS</h1>
-          <h2 className="py-2">멸종 위기 동물 보호를 위한 NFT 플랫폼</h2>
+          <h1 className="py-2">포트폴리오</h1>
+          <h2 className="py-2">
+            지금 보고계신 이 페이지
+          </h2>
         </div>
       </div>
 

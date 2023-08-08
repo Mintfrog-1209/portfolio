@@ -33,7 +33,7 @@ const Projects = () => {
           <ProjectItem
             title='포트폴리오'
             src={Portfolio}
-            url='/twitch'
+            url='/portfolio'
 
           />
         </div>
