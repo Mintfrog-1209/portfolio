@@ -8,7 +8,7 @@ type AboutProps = {
 
 const AboutItem = (props:AboutProps) => {
   return (
-    <div className='py-6 pr-10 rounded-xl shadow-xl shadow-gray-400 bg-white'>
+    <div className='py-6 pr-10 rounded-xl shadow-xl shadow-gray-400 bg-[#F6F4EB]'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto justify-start'>
                 <Image src={props.src} width='80' height='80' alt='/' />

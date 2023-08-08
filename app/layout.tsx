@@ -11,6 +11,7 @@ const myFont = localFont({
   src: './SCDream7.otf',
   display: 'swap',
 })
+
 export const metadata: Metadata = {
   title: "YOOBIN",
   description: "Yoobin Han's portfolio",

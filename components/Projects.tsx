@@ -7,9 +7,9 @@ import Portfolio from '../public/projects/portfolio.png'
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full p-[100px] bg-[#B9F3FC]'>
+    <div id='projects' className='w-full p-[100px] bg-gradient-to-t from-[#E7CEA6] to-[#EDFAFD]'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <h1 className='text-4xl tracking-widest uppercase text-[#379237] py-4'>
+        <h1 className='text-4xl tracking-widest uppercase text-[#E7CEA6] py-4'>
           Projects
         </h1>
         <div className='grid md:grid-cols-2 gap-8 py-4'>

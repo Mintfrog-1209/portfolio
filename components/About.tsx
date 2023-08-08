@@ -10,9 +10,9 @@ import Github from "../public/about/github.png"
 
 const About = () => {
   return (
-    <div id="about" className="w-full p-[100px] bg-[#B9F3FC]">
+    <div id="about" className="w-full p-[100px] bg-gradient-to-t from-[#AED9DA] to-[#3DDAD7]">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-4xl tracking-widest uppercase text-[#379237]">
+        <p className="text-4xl tracking-widest uppercase text-[#F6F4EB] pb-4">
           About
         </p>
         <div className="grid grid-cols-3 py-4 gap-8">

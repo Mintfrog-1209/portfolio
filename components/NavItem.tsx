@@ -7,7 +7,7 @@ type NavProps = {
 const NavItem = (props: NavProps) => {
   return (
     <Link href={props.route}>
-      <li className="ml-10 text-sm uppercase">{props.name}</li>
+      <li className="ml-10 text-sm uppercase text-white">{props.name}</li>
     </Link>
   );
 };
