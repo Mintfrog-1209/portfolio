@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
+import DetailItem from '@/components/DetailItem';
 import GroundImage from "../../public/projects/ground3.png";
-import Link from "next/link";
+import GroundImage2 from "../../public/projects/ground2.png";
 
 const home = () => {
   return (
-    <div className="w-full">
-      <div className="w-screen h-[50vh] relative">
+    <div className="w-full bg-gradient-to-t from-[#E7CEA6] to-[#EDFAFD]">
+      <div className="w-screen h-[50vh] relative ">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
           className="absolute z-1"
@@ -14,65 +15,31 @@ const home = () => {
           objectFit="contain"
           src={GroundImage}
           alt="/"
-          placeholder='blur'
+          placeholder="blur"
         />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+        <div className="absolute top-[60%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h1 className="py-2">GROUND</h1>
-          <h2 className="py-2">
+          <h2 className="py-8">
             개인의 운동 경험을 기록하고 공유하는 SNS 서비스
           </h2>
         </div>
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
-        <div className="col-span-4">
-          <h1 className="py-8">Project</h1>
-          <h2 className="py-8">Overview</h2>
-          <p className="py-8">
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router
-            DOM&quot; package. This application was built using the Coin Gecko
-            API.
-          </p>
-          <a
-            href="https://github.com/fireclint/crypto-react-firebase"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
-            href="https://cryptobase-yt.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+    <div className="max-w-[1240px] mx-auto p-2 grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 py-4 items-center content-center">
+          <DetailItem title="담당 역할" content="팀장, 프론트엔드 엔지니어, 최종발표"/>
+          <DetailItem title="구현 사항" content="아이디 비밀번호 찾기 기능 구현, 게시글 및 댓글 CRUD 기능 구현"/>
+          <DetailItem title="활용 기술" content="React, Firebase Storage"/>
+          <DetailItem title="깃허브 주소" content="https://github.com/Mintfrog-1209/GROUND"/>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
-          <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1 ">
-              <p className="text-gray-600 py-2 flex items-center">React</p>
-              <p className="text-gray-600 py-2 flex items-center">Tailwind</p>
-              <p className="text-gray-600 py-2 flex items-center">Javascript</p>
-              <p className="text-gray-600 py-2 flex items-center">Firebase</p>
-              <p className="text-gray-600 py-2 flex items-center">
-                Coin Gecko API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">Routes</p>
-            </div>
-          </div>
+        <div>
+        <Image
+          src={GroundImage2}
+          alt="/"
+          placeholder="blur"
+          objectFit='contain'
+        />
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link>
       </div>
     </div>
   );
