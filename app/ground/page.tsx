@@ -4,13 +4,14 @@ import DetailItem from '@/components/DetailItem';
 import GroundImage from "../../public/projects/ground3.png";
 import GroundImage2 from "../../public/projects/ground2.png";
 
+
 const home = () => {
   return (
-    <div className="w-full bg-gradient-to-t from-[#E7CEA6] to-[#EDFAFD]">
+    <div className="w-full bg-gradient-to-t from-[#E7CEA6] to-[#EDFAFD] min-h-screen">
       <div className="w-screen h-[50vh] relative ">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
-          className="absolute z-1"
+          className="absolute z-1" 
           layout="fill"
           objectFit="contain"
           src={GroundImage}
@@ -25,7 +26,7 @@ const home = () => {
         </div>
       </div>
 
-    <div className="max-w-[1240px] mx-auto p-2 grid grid-cols-2 gap-8">
+    <div className="max-w-[1240px] mx-auto p-2 py-4 grid grid-cols-2 gap-8">
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 py-4 items-center content-center">
           <DetailItem title="담당 역할" content="팀장, 프론트엔드 엔지니어, 최종발표"/>
           <DetailItem title="구현 사항" content="아이디 비밀번호 찾기 기능 구현, 게시글 및 댓글 CRUD 기능 구현"/>
@@ -34,6 +35,7 @@ const home = () => {
         </div>
         <div>
         <Image
+          className="rounded-lg"
           src={GroundImage2}
           alt="/"
           placeholder="blur"
