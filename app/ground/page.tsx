@@ -29,7 +29,7 @@ const home = () => {
     <div className="max-w-[1240px] mx-auto p-2 py-4 grid grid-cols-2 gap-8">
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 py-4 items-center content-center">
           <DetailItem title="담당 역할" content="팀장, 프론트엔드 엔지니어, 최종발표"/>
-          <DetailItem title="구현 사항" content="아이디 비밀번호 찾기 기능 구현, 게시글 및 댓글 CRUD 기능 구현"/>
+          <DetailItem title="구현 사항" content={`1. 아이디 비밀번호 찾기 기능 구현\n2. 게시글 및 댓글 CRUD 기능 구현`}/>
           <DetailItem title="활용 기술" content="React, Firebase Storage"/>
           <DetailItem title="깃허브 주소" content="https://github.com/Mintfrog-1209/GROUND"/>
         </div>
