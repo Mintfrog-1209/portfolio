@@ -27,6 +27,7 @@ const home = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 py-4 grid grid-cols-2 gap-8">
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 py-4 items-center content-center">
+          <DetailItem title="기간" content="2023.07 ~ 진행중"/>
           <DetailItem title="담당 역할" content="프론트엔드 엔지니어, 배포"/>
           <DetailItem title="구현 사항" content="자기 소개, 보유 기술, 진행한 프로젝트"/>
           <DetailItem title="활용 기술" content="TypeScript, Next.js, React"/>

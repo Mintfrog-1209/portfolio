@@ -19,15 +19,15 @@ const Projects = () => {
             url='/ground'
           />
           <ProjectItem
-            title='있슈(easssue)'
-            src={Easssue}
-            url='/easssue'
-
-          />
-          <ProjectItem
             title='SAMALS'
             src={Samals}
             url='/samals'
+
+          />
+          <ProjectItem
+            title='있슈(easssue)'
+            src={Easssue}
+            url='/easssue'
 
           />
           <ProjectItem
