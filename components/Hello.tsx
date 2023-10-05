@@ -10,8 +10,8 @@ const Hello = () => {
           </h1>
             <h1 className='py-2 text-[#F6F4EB]'>Front-end 웹 개발자 <span className='text-black'>한유빈</span>입니다.</h1>
 
-          <h2 className='py-4 text-[#F6F4EB] sm:max-w-[70%] m-auto'>
-            서비스를 사용하는 유저의 입장이 되어 어떻게 하면 더 빠르고 &nbsp; 편하게 서비스를 이용할 수 있을지 항상 고민하고 있습니다.
+          <h2 className='py-4 text-[#F6F4EB] sm:max-w-[80%] m-auto'>
+           빠른 습득력과 다양한 기술 스택을 활용한 프로젝트 경험을 살려 많은 사용자가 편리하고 빠르게 이용할 수 있는 서비스를 만드는 것이 목표입니다.
           </h2>
         </div>
       </div>
